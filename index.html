@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editor de Textos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>EDITOR DE TEXTOS</h1>
+    </header>
+    <main>
+        <div class="texto">
+            <textarea name="text" id="texto" cols="0" rows="5" placeholder="Digite seu Texto" oninput="mudarTexto()"></textarea>
+            <p class="" id="textoH2">Seu Texto</p>
+        </div>
+    </main>
+    <section>
+        <div class="containerComands">
+            <input type="button" value="MAIÚSCULO" class="button" onclick="maiusculo()">
+            <input type="button" value="MINÚSCULO" class="button" onclick="minusculo()">
+            <input type="button" value="CAPITALIZADO" class="button" onclick="capitalizado()">
+            <input type="button" value="NEGRITO" class="button" onclick="negrito()">
+            <input type="button" value="ITÁLICO" class="button" onclick="italico()">
+            <input type="button" value="ORIGINAL" class="button" onclick="original()">
+        </div>
+    </section>
+   
+<script src="script.js"></script>
+</body>
+</html>
